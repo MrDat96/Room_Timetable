@@ -16,11 +16,20 @@ public:
     explicit Timetable(QWidget *parent = 0);
     void    initTable();
     void    initNetWork();
-    void    insertInfor(int32_t row, int32_t col, QString subject, QString teacher_name, QString class_section);
+    void    insertInforMorning(int32_t row, int32_t col, QString subject, QString teacher_name, QString class_section);
+    void    insertInforAfternoon(int32_t row, int32_t col, QString subject, QString teacher_name, QString class_section);
+    void    move(QString move);
+    void    getPressButton(Timetable w);
+    static void *listening(void *vargp);
+    void    waiting();
     ~Timetable();
 
 private slots:
     void onResult(QNetworkReply* reply);
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_clicked();
 
 private:
     Ui::Timetable *ui;

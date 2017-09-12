@@ -8,6 +8,10 @@ QT       += core gui
 QT       += network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+INCLUDEPATH    += /home/ember/opt/rasp-pi-rootfs/usr/local/include
+LIBS += -L/home/ember/opt/rasp-pi-rootfs/usr/local/lib -lwiringPi
+
+
 TARGET = Room_Timetable
 TEMPLATE = app
 

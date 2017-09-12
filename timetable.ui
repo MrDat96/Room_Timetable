@@ -17,32 +17,20 @@
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QGroupBox" name="groupBox">
-      <property name="minimumSize">
-       <size>
-        <width>0</width>
-        <height>56</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>56</height>
-       </size>
-      </property>
       <property name="title">
-       <string>Infomations</string>
+       <string/>
       </property>
       <widget class="QLabel" name="label">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>20</y>
-         <width>71</width>
+         <x>10</x>
+         <y>0</y>
+         <width>41</width>
          <height>16</height>
         </rect>
        </property>
        <property name="text">
-        <string>Day of weeks:</string>
+        <string>Date:</string>
        </property>
        <property name="buddy">
         <cstring>lineEdit</cstring>
@@ -51,9 +39,9 @@
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>210</x>
-         <y>20</y>
-         <width>31</width>
+         <x>280</x>
+         <y>0</y>
+         <width>71</width>
          <height>16</height>
         </rect>
        </property>
@@ -67,9 +55,9 @@
       <widget class="QLineEdit" name="lineEdit">
        <property name="geometry">
         <rect>
-         <x>100</x>
-         <y>20</y>
-         <width>101</width>
+         <x>60</x>
+         <y>0</y>
+         <width>191</width>
          <height>20</height>
         </rect>
        </property>
@@ -80,8 +68,8 @@
       <widget class="QLineEdit" name="lineEdit_2">
        <property name="geometry">
         <rect>
-         <x>250</x>
-         <y>20</y>
+         <x>330</x>
+         <y>0</y>
          <width>81</width>
          <height>20</height>
         </rect>
@@ -122,6 +110,39 @@
       </property>
      </widget>
     </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>0</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>0</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -130,7 +151,7 @@
      <x>0</x>
      <y>0</y>
      <width>531</width>
-     <height>21</height>
+     <height>27</height>
     </rect>
    </property>
   </widget>
