@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>531</width>
-    <height>325</height>
+    <width>800</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -57,9 +57,15 @@
         <rect>
          <x>60</x>
          <y>0</y>
-         <width>191</width>
+         <width>211</width>
          <height>20</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
        <property name="text">
         <string>06/09/2017</string>
@@ -70,12 +76,36 @@
         <rect>
          <x>330</x>
          <y>0</y>
-         <width>81</width>
+         <width>201</width>
          <height>20</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>08-06-02</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>0</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <italic>true</italic>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </widget>
@@ -90,7 +120,9 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>7</pointsize>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="styleSheet">
@@ -105,7 +137,9 @@
      <widget class="QTableWidget" name="tableWidget_2">
       <property name="font">
        <font>
-        <pointsize>7</pointsize>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
      </widget>
@@ -150,7 +184,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>531</width>
+     <width>800</width>
      <height>27</height>
     </rect>
    </property>
